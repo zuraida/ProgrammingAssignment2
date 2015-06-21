@@ -32,5 +32,3 @@ cacheSolve <- function(x, ...) {
   x$setinverse(m)
   m
 }
-a<-makeMatrix(matrix(c(4,6,9,8,10,9,5,2,1),3,3))
-cacheSolve(a)
